@@ -1,0 +1,197 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+/* index.html */
+#avatar-img__index{
+    padding: 3px 0 0 0;
+    margin: 0;
+}
+.card a img {
+    height:18rem;
+}
+.card-image img{
+    height:18rem;
+}
+.card-content{
+    height:8rem;
+}
+#centralBox__image{
+    height: 80vh !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url("../IMG/2.jpg") !important;
+}
+#mainHeader{
+    margin-top: 7rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+  @media only screen and (max-width: 550px)  {
+    #mainHeader > h1{
+        font-size: 3rem;
+    }
+  }
+#allRecipes__link{
+    font-size: 1.3rem;
+}
+  /*search*/
+  #searchInput{
+      padding-left: 1rem !important;
+      font-size: 1.5rem;
+  }
+  #searchInput:focus {
+    border-bottom: 1px solid #01579b;
+  }
+  .input-field .prefix.active {
+    color: #01579b;
+  }
+  /*footer*/
+#footer__image{
+    height: 15rem !important;
+}
+#footer__list {
+    display: flex;
+    justify-content: center;
+}
+#footer__list > ul > li {
+    padding-right: 1rem;
+}
+/* modals*/
+.modal .row{
+    margin: 0;
+}
+
+#loginModal{
+    background-image: url("../IMG/10.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+#signUpModal{
+    background-image: url("../IMG/14.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+/*recipes.html*/
+#section__video{
+    margin-top: 1.2rem;
+}
+.collection{
+    border: none;
+}
+/*admin*/
+
+/*admin dashboard*/
+#adminSideNav{
+    font-size: 1.5rem;
+}
+.collapsible-body{
+    padding: .2rem 1rem ;
+}
+#adminSideNav__subItem a{
+    color: black;
+    
+}
+#adminSideNav__subItem li{
+    padding: 0.5rem 0 0.5rem 0.7rem;
+    border-bottom:solid #b6b5b5 1px;
+}
+#adminSideNav__subItem li:nth-last-child(1){
+    border-bottom:none;
+}
+.margin-top{
+    padding-top: 1.5rem;
+}
+/* contact */
+#contactWrapper .row{
+    margin-bottom: 0px;
+}
+#contactWrapper .container p{
+    margin-bottom: 0px;
+}
+#emailText{
+    margin-bottom: 0;
+}
+#container_header{
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+#contact__row{
+    margin: 0;
+}
+#contact__bgImage{
+    background-image: url("../IMG/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#contact__actionBtn{
+    margin-top:1rem;
+    margin-right: 1rem;
+}
+@media only screen and (max-width: 500px)  {
+    #container_header{
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+  }
+/*side nav*/
+.margin-bootom-big{
+    margin-bottom: 3rem;
+}
+.margin-right-big{
+    margin-right: 7rem;
+}
+/* toast */
+#toast-container {
+    bottom: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:7%;
+}
+/* successfull registrtion */
+.margin-left__small{
+    margin-left: 1rem;
+}
+#successfullRegistration__body
+{
+    padding: 0;
+    margin: 0;
+}
+#successfullRegistration__container h1{
+    margin: 0;
+    padding: 1rem 1rem;
+}
+#successfullRegistration__container{
+    background-image: url("../IMG/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/* 404 */
+#mainContainer{
+    background-image: url("../IMG/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 4rem;
+}
+#mainContainer h1{
+    font-size: 13rem;
+}
+/*the survey radio buttons*/
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #fff;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #fff;
+}
